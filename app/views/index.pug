@@ -1,0 +1,20 @@
+extends template
+
+block content
+    h1 Welcome to Dorm Supplies
+    div(style='text-align: center')    
+        form(style='text-align: center')
+            h2 Sign up to be able get urself some Supps
+            input(type='text' name='name' id='name' placeholder='Name') 
+            br
+            input(type='email' name='email' id='email' placeholder='Email') 
+            br
+            input(type='number' name='classYear' id='classYear' placeholder='Class Year' value='2018') 
+            br
+            input(type='text' name='address' id='address' placeholder='Address')
+            br 
+            input(type='password' name='password' id='password' placeholder='Password') 
+            br
+            button(type='button' name='register2' onclick="register()" ) Register
+
+
